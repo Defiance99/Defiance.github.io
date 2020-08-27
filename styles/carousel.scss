@@ -1,0 +1,26 @@
+.arrow {
+    width: 23px;
+    height: 41px;
+
+    i {
+        border: solid rgb(194,194,74);
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 14px;
+        opacity: 0.7;
+    }
+    i:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+}
+.left-arrow-button {
+    transform: rotate(70deg);
+}
+.right-arrow-button {
+    transform: rotate(-45deg);
+}
+
+.active {
+    text-decoration: underline;
+}
